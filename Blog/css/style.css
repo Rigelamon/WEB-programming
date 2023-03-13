@@ -69,9 +69,62 @@ hr {
 .big-post-container {
     height: 260px;
     width: 480px;
-    background-size: cover;
-    background-position: center;
     color: white;
     font-weight: 300;
-    background: url(../image/Post1Image.png)
+}
+
+.small-post-container {
+    height: 300px;
+    width: 300px;
+    color: black;
+    font-weight: 300;
+    background-color: white;
+    padding: 0;
+}
+
+.small-post-picture {
+    height: 150px;
+    width: 300px;
+    margin: 0;
+}
+
+.small-class-tag {
+    background-color: coral;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    width: 20%;
+    height: 25px; 
+}
+
+.post-information {
+    margin: 10px 0px 10px 0px;
+}
+
+.post-author-space {
+    background-color: aliceblue;
+    height: 48px;
+}
+
+.footer {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background: url(../image/FooterImage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.post-page-header-container {
+    height: 300px;
+}
+
+.post-page-text {
+    margin: 90px 0 90px 0;
+    width: 60%;
+}
+
+.post-page-image {
+    width: 100%;
+    height: auto;
 }
