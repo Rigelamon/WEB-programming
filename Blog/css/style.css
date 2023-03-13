@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto Mono';
+    margin: 0;
+}
+
+.header-links {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.novigation-links {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.headers {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+.main-header {
+    font-size: 72px;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.small-header {
+    font-weight: 300;
+}
+
+.header-button {
+    background-color: coral;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    width: 10%;
+    height: 40px;
+}
+
+.introduction {
+    background: url(../image/FonImage.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    color: white;
+}
+
+.novigation {
+    background-color: white;
+    margin: 0;
+}
+
+.main-container {
+    background-color: gainsboro;
+}
+
+.post-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+hr {
+    width: 20%;
+}
+
+.big-post-container {
+    height: 260px;
+    width: 480px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 300;
+    background: url(../image/Post1Image.png)
+}
