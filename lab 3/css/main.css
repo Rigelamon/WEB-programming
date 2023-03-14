@@ -1,7 +1,121 @@
 body {
-    font-family: 'Roboto Mono';
     margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.header {
+    color: black;
+    height: 74px;
+}
+
+.header__logo {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.header__link {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    background: url(../image/FonImage.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    color: white;
+}
+
+.intro__container__title {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.intro__container__smalltitle {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.intro_container__button {
+    background-color: #DD783F;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    width: 10%;
+    height: 40px;
+}
+
+.nav {
+    background-color: white;
+    height: 65px;
+}
+
+.nav__link {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #F6F6F6;
+}
+
+
+
+
+
+.main__header {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main__hr {
+    width: 20%;
+}
+
+.main__smallposts__post {
+    height: 291px;
+    width: 296px;
+    background-color: white;
+}
+
+.main__smallposts__post__picture {
+    height: 150px;
+    width: 296px;
+    margin: 0;
+}
+
+.main__smallposts__post__header {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main__smallposts__post__info {
+    margin: 13px;
+    color: #7A7A7A;
+}
+
+
+
 
 .header-links {
     color: white;
@@ -62,10 +176,6 @@ body {
     font-size: 24px;
 }
 
-hr {
-    width: 20%;
-}
-
 .big-post-container {
     height: 260px;
     width: 480px;
@@ -104,15 +214,6 @@ hr {
 .post-author-space {
     background-color: aliceblue;
     height: 48px;
-}
-
-.footer {
-    color: white;
-    font-weight: 300;
-    text-decoration: none;
-    background: url(../image/FooterImage.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .post-page-header-container {
