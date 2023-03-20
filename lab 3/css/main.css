@@ -11,6 +11,10 @@ h6 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .header {
     color: black;
     height: 74px;
@@ -70,25 +74,68 @@ h6 {
     font-weight: 300;
     font-size: 14px;
     text-decoration: none;
-    color: black;
+    color: #768088
 }
 
 .main {
     background-color: #F6F6F6;
 }
 
-
-
-
-
 .main__header {
     font-family: 'Oxygen', sans-serif;
     font-size: 20px;
     font-weight: 300;
+    color: #2E2E2E;
 }
 
 .main__hr {
     width: 20%;
+    border: 1px solid #DEDEDE;
+}
+
+.main__largeposts__post {
+    width: 460px;
+    height: 280px;
+}
+
+.main__largeposts__post__header {
+    font-family: 'Lora', serif;
+    font-size: 27px;
+    color: white;
+    font-weight: 300;
+}
+
+.main__largeposts__post__info {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+}
+
+.main__largeposts__post__author__info {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    opacity: 70%;
+}
+
+.main__largeposts__post__sign {
+    background-color: #DD783F;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    border: 0;
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+    width: 90px;
+    height: 26px;
+}
+
+.main__smallposts {
+    background-color: #F6F6F6;
 }
 
 .main__smallposts__post {
@@ -105,6 +152,7 @@ h6 {
 
 .main__smallposts__post__header {
     font-family: 'Lora', serif;
+    color: #101315;
     font-weight: 400;
     font-size: 16px;
 }
@@ -114,7 +162,12 @@ h6 {
     color: #7A7A7A;
 }
 
-
+.main__smallposts__post__author__info {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #999999;
+}
 
 
 .header-links {

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header__logo {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.header__link {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.intro__title {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 300; 
+}
+
+.intro__smalltitle {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.main__photo {
+    background: url(../image/Post1FonImage.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 530px;
+}
+
+.main__text {
+    width: 960px;
+}
+
+.main__paragraph {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
