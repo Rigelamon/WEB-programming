@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 .header {
     color: black;
     height: 74px;
@@ -26,19 +43,19 @@
     color: white;
 }
 
-.intro__title {
+.intro__container__title {
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 300;
 }
 
-.intro__smalltitle {
+.intro__container__smalltitle {
     font-family: 'Oxygen', sans-serif;
     font-size: 17px;
     font-weight: 300;
 }
 
-.intro__button {
+.intro_container__button {
     background-color: #DD783F;
     border: 0px;
     border-radius: 3px;
@@ -76,19 +93,19 @@
     border: 1px solid #DEDEDE;
 }
 
-.main__largepost {
+.main__largeposts__post {
     width: 460px;
     height: 280px;
 }
 
-.largepost__header {
+.main__largeposts__post__header {
     font-family: 'Lora', serif;
     font-size: 27px;
     color: white;
     font-weight: 300;
 }
 
-.largepost__info {
+.main__largeposts__post__info {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -96,7 +113,7 @@
     opacity: 70%;
 }
 
-.largepost__author-info {
+.main__largeposts__post__author__info {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 12px;
@@ -104,7 +121,7 @@
     opacity: 70%;
 }
 
-.largepost__sign {
+.main__largeposts__post__sign {
     background-color: #DD783F;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
@@ -121,31 +138,31 @@
     background-color: #F6F6F6;
 }
 
-.smallposts__post {
+.main__smallposts__post {
     height: 291px;
     width: 296px;
     background-color: white;
 }
 
-.smallposts__picture {
+.main__smallposts__post__picture {
     height: 150px;
     width: 296px;
     margin: 0;
 }
 
-.smallposts__header {
+.main__smallposts__post__header {
     font-family: 'Lora', serif;
     color: #101315;
     font-weight: 400;
     font-size: 16px;
 }
 
-.smallposts__info {
+.main__smallposts__post__info {
     margin: 13px;
     color: #7A7A7A;
 }
 
-.smallpost__author-info {
+.main__smallposts__post__author__info {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 12px;
