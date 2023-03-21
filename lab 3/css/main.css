@@ -96,7 +96,7 @@
     opacity: 70%;
 }
 
-.largepost__author-info {
+.authorlarge__info {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 12px;
@@ -127,6 +127,10 @@
     background-color: white;
 }
 
+.smallposts__line {
+    color: #EFEFEF;
+}
+
 .smallposts__picture {
     height: 150px;
     width: 296px;
@@ -145,7 +149,7 @@
     color: #7A7A7A;
 }
 
-.smallpost__author-info {
+.authorsmall__info {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 12px;
