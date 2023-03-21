@@ -1,0 +1,24 @@
+.footer {
+    height: 89px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background: url(../image/FooterImage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__header {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.footer__link {
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 11px;
+    text-decoration: none;
+    opacity: 60%;
+}
