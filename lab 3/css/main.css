@@ -30,12 +30,14 @@
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .intro__smalltitle {
     font-family: 'Oxygen', sans-serif;
     font-size: 17px;
     font-weight: 300;
+    opacity: 65%;
 }
 
 .intro__button {
@@ -69,6 +71,7 @@
     font-size: 20px;
     font-weight: 300;
     color: #2E2E2E;
+    letter-spacing: 2px;
 }
 
 .main__hr {
@@ -106,6 +109,7 @@
 
 .largepost__sign {
     background-color: #DD783F;
+    border-radius: 2px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 13px;

@@ -1,24 +1,117 @@
 .footer {
-    height: 89px;
     color: white;
     font-weight: 300;
     text-decoration: none;
-    background: url(../image/FooterImage.png);
+    background: url(../image/FooterForm.png);
     background-size: cover;
     background-position: center;
+    position: relative;
+    height: 380px;
+}
+
+.footer__form {
+    width: 65%;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__header {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+
+.form__hr {
+    width: 200px;
+    border: 1px solid #DEDEDE;
+    margin: 25px auto 25px auto;
+}
+
+.form__block {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form__button {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    height: 50px;
+    width: 125px;
+    background-color: rgba(255, 255, 255, .28);
+    color: white;
+    border-radius: 0 3px 3px 0;
+    padding: auto;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form__input {
+    margin-left: 25%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    height: 50px;
+    width: 375px;
+    background-color: white;
+    border-radius: 3px 0px 0px 3px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.footer__background {
+    background-color: #232F38;
+    position: absolute;
+    top: 300px;
+    opacity: 60%;
+    width: 100%;
+    height: 80px;
+    z-index: 0;
+}
+
+.footer__inner {
+    width: 65%;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+
+.footer__link-block {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 25px;
 }
 
 .footer__header {
     font-family: 'Lora', serif;
+    position: relative;
     font-weight: 400;
     font-size: 26px;
+    margin-top: 25px;
+    z-index: 1;
 }
 
 .footer__link {
     font-family: 'Oxygen', sans-serif;
+    position: relative;
     color: white;
     font-weight: 300;
     font-size: 11px;
     text-decoration: none;
     opacity: 60%;
+    z-index: 1;
+    margin-top: 13px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }

@@ -5,19 +5,34 @@
     background: url(../image/FooterImage.png);
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.footer__background {
+    background-color: #232F38;
+    position: absolute;
+    top: 0;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 .footer__header {
     font-family: 'Lora', serif;
+    position: relative;
     font-weight: 400;
     font-size: 26px;
+    z-index: 1;
 }
 
 .footer__link {
     font-family: 'Oxygen', sans-serif;
+    position: relative;
     color: white;
     font-weight: 300;
     font-size: 11px;
     text-decoration: none;
     opacity: 60%;
+    z-index: 1;
 }
