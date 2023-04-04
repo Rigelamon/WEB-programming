@@ -13,7 +13,7 @@
 }
 
 .header__inner {
-    width: 65%;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -50,7 +50,7 @@
 }
 
 .intro__container {
-    width: 65%;
+    max-width: 960px;
     margin: auto;
     position: relative;
     text-align: center;
@@ -88,9 +88,12 @@
 }
 
 .nav__block {
-    width: 65%;
+    max-width: 960px;
     margin: auto;
     display: flex;
+    flex-shrink: 1;
+    justify-content: stretch;
+    justify-content: space-around;
 }
 
 .nav__link {
@@ -99,8 +102,10 @@
     font-size: 14px;
     text-decoration: none;
     color: #768088;
+    display: flex;
     text-align: center;
-    width: 16.6%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .main {
@@ -113,7 +118,6 @@
     font-weight: 300;
     color: #2E2E2E;
     text-align: center;
-    margin-bottom: 15px;
     padding-top: 45px;
     letter-spacing: 2px;
 }
@@ -124,10 +128,10 @@
 }
 
 .largeposts__block {
-    margin-top: 25px;
+    margin-top: 40px;
     position: relative;
     display: flex;
-    width: 65%;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -212,22 +216,24 @@
 }
 
 .smallposts__block {
-    margin-top: 15px;
     position: relative;
     display: flex;
-    width: 65%;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: stretch;
+    justify-content: space-around;
     padding-bottom: 90px;
+    flex-wrap: wrap;
     box-sizing: border-box;
 }
 
 .smallposts__post {
+    margin-top: 40px;
     height: 291px;
     width: 296px;
     background-color: white;
-    margin: 15px 15px 30px 15px;
 }
 
 .smallposts__content {
