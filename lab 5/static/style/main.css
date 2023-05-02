@@ -130,15 +130,13 @@
 .largeposts__block {
     margin-top: 40px;
     position: relative;
-    display: flex;
+    display: inline-flex;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .main__largepost {
-    margin-left: 15px;
-    margin-right: 15px;
     padding: 20px;
     box-sizing: border-box;
     width: 460px;

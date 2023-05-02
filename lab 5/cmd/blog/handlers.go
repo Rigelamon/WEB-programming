@@ -12,14 +12,12 @@ type indexData struct {
 }
 
 type featuredPostData struct {
-	Title        string
-	Subtitle     string
-	ImgModifer   string
-	Author       string
-	AuthorImg    string
-	PubDate      string
-	Metka        string
-	MetkaModifer string
+	Title     string
+	Subtitle  string
+	PostImg   string
+	Author    string
+	AuthorImg string
+	PubDate   string
 }
 
 type recentPostData struct {
@@ -45,24 +43,20 @@ type postParagraph struct {
 func featuredPosts() []featuredPostData {
 	return []featuredPostData{
 		{
-			Title:        "The Road Ahead",
-			Subtitle:     "The road ahead might be paved - it might not be.",
-			ImgModifer:   "main__largepost",
-			Author:       "Mat Vogels",
-			AuthorImg:    "/static/image/Post1Image.png",
-			PubDate:      "September 25, 2015",
-			Metka:        "",
-			MetkaModifer: "article-feature_metka article-feature_metka_off content__text_font_oxygen",
+			Title:     "The Road Ahead",
+			Subtitle:  "The road ahead might be paved - it might not be.",
+			PostImg:   "/static/image/Post1Image.png",
+			Author:    "Mat Vogels",
+			AuthorImg: "/static/image/Person1Image.png",
+			PubDate:   "September 25, 2015",
 		},
 		{
-			Title:        "From Top Down",
-			Subtitle:     "Once a year, go someplace you’ve never been before.",
-			ImgModifer:   "main__largepost",
-			Author:       "William Wong",
-			AuthorImg:    "/static/image/Post2Image.png",
-			PubDate:      "September 25, 2015",
-			Metka:        "adventure",
-			MetkaModifer: "article-feature_metka article-feature_metka_on content__text_font_oxygen",
+			Title:     "From Top Down",
+			Subtitle:  "Once a year, go someplace you’ve never been before.",
+			PostImg:   "/static/image/Post2Image.png",
+			Author:    "William Wong",
+			AuthorImg: "/static/image/Person2Image.png",
+			PubDate:   "September 25, 2015",
 		},
 	}
 }
