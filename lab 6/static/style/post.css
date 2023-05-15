@@ -1,0 +1,77 @@
+.header__logo {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.header__inner {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+}
+
+.header__link-block {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.header__link {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.intro {
+    height: 350px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 90px;
+}
+
+.intro__title {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.intro__smalltitle {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 65%;
+    margin-bottom: 40px;
+}
+
+.main__photo {
+    background: url(../image/Post1FonImage.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 530px;
+}
+
+.main__text {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.main__paragraph {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
