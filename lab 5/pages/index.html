@@ -52,7 +52,7 @@
                 <h3 class="main__header">Featured Posts</h3>
                 <hr class="main__hr">
                 <div class="largeposts__block" >
-                {{ range .Featured }}
+                {{ range .FeaturedPosts }}
                     <div class="main__largepost largepost" style="background: url({{ .PostImg }});">
                         <div class="largepost__content">
                             <h3 class="largepost__header">{{ .Title }}</h3>
@@ -72,7 +72,7 @@
                 <h3 class="main__header">Most Recent</h3>
                 <hr class="main__hr">
                 <div class="smallposts__block">
-                {{ range .Recent }}
+                {{ range .RecentPosts }}
                     <div class="smallposts__post smallposts">
                         <img src="{{ .MainImg }}" class="smallposts__picture" alt="{{ .Title }} image">
                         <div class="smallposts__content">

@@ -67,11 +67,13 @@
     margin-right: auto;
     margin-top: 120px;
     margin-bottom: 120px;
+    white-space: pre;
 }
 
 .main__paragraph {
     font-family: 'Oxygen', sans-serif;
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 15px;
+    white-space: pre-wrap;
+    width: fit-content;
 }
